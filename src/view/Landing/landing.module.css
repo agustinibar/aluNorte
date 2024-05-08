@@ -22,7 +22,7 @@
   .textContainer {
     display: flex;
     flex-direction: column;
-    align-items: flex-end; /* Alinea los elementos al extremo derecho */
+    align-items: center; /* Alinea los elementos al extremo derecho */
   }
 
   .header {
@@ -51,7 +51,26 @@
     h1{
       margin: 0;
     }
-      
+    
+    .ingresar{
+      background-color: #89ADA3;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      font-size: 25px;
+      /* font-weight: 2 bold; */
+      cursor: pointer;  
+      font-family: "Shalimar", cursive;
+      font-weight: bold;
+      font-style: normal;
+      letter-spacing: 2px;
+      margin: 0;
+      transition: transform 0.5s;
+    }
+
+    .ingresar:hover{
+      transform: scale(1.1);
+    }
     }
   
     
