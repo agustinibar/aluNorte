@@ -1,0 +1,20 @@
+.container{
+    width: 100%;
+}
+.imagen{
+    width: 100%;
+}
+.textContainer{
+    position: relative;
+    top: -500px;
+    left: 100px;
+    color: white;
+    font-size: 30px;
+    
+        h2{
+         margin: 0;   
+        }
+        h4{
+            margin-top: 10px;
+        }
+}

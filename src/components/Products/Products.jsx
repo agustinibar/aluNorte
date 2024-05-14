@@ -4,7 +4,7 @@ import Product from './Product/Product';
 const Products = ({ products }) => {
   return (
     <>
-    <h3 className={styles.tittle}>Nuestros Trabajos: </h3>
+    <h3 className={styles.tittle}>Nuestros Servicios: </h3>
     { products ?  products.map((product)=>(
       <Product key={product.id} product={product} isVideo={product.id !== 2}/>
 

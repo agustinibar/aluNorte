@@ -1,0 +1,54 @@
+.master{
+    display: flex;
+    justify-content: space-around; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    flex-wrap: wrap; /* Envuelve los elementos si no caben en una sola fila */
+}
+.container{ 
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+.tittle{
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.video, .image {
+    width: 300px;
+    height: 450px; 
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    background-color: rgba(247, 245, 245, 0.918);
+    padding: 5px;
+    position: relative;
+    top: -120px;
+    left: 45px;
+}
+.subtittle{
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin: 0;
+    margin-top: 5px;
+    color: grey;
+}
+.text{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
