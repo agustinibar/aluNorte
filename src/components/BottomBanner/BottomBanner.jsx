@@ -6,7 +6,7 @@ const BottomBanner = () => {
         <img src={banner} className={styles.imagen} />
         <div className={styles.textContainer}>
         <h2>La comodidad de esta foto,</h2>
-        <h4> la queremos para tu vida</h4>
+        <h4> la queremos para tu vida.</h4>
         <button>Empeza ahora</button>
         </div>
     </div>

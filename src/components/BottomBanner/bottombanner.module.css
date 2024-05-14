@@ -18,6 +18,18 @@
             margin-top: 10px;
         }
         button{
-            
+            border: 2px solid white;
+            background-color: #89ADA3;
+            font-weight: bolder;
+            color: white;
+            transition: background-color 0.3s, color 0.3s;
+            width: 200px;
+            height: 50px;
         }
+        button:hover{
+            background-color: #89ADA3; 
+            color: white;
+            border-color: #89ADA3; 
+            cursor: pointer;
+          }
 }
