@@ -1,35 +1,46 @@
-.container{
+.containerBanner {
     width: 100%;
-}
-.imagen{
-    width: 100%;
-}
-.textContainer{
     position: relative;
-    top: -500px;
-    left: 100px;
+    display: inline-block; 
+}
+
+.imagen {
+    width: 100%;
+    display: block; 
+}
+
+.textContainer {
+    position: absolute;
+    top: 50%; 
+    left: 50px; 
+    transform: translateY(-50%); 
     color: white;
     font-size: 30px;
-    
-        h2{
-         margin: 0;   
-        }
-        h4{
-            margin-top: 10px;
-        }
-        button{
-            border: 2px solid white;
-            background-color: #89ADA3;
-            font-weight: bolder;
-            color: white;
-            transition: background-color 0.3s, color 0.3s;
-            width: 200px;
-            height: 50px;
-        }
-        button:hover{
-            background-color: #89ADA3; 
-            color: white;
-            border-color: #89ADA3; 
-            cursor: pointer;
-          }
+    z-index: 1;
+
+    h2 {
+        margin: 0;
+    }
+
+    h4 {
+        margin-top: 10px;
+    }
+
+    button {
+        border: 2px solid white;
+        background-color: #89ADA3;
+        font-weight: bolder;
+        color: white;
+        transition: background-color 0.3s, color 0.3s;
+        width: 200px;
+        height: 50px;
+        margin-top: 20px; 
+    }
+
+    button:hover {
+        background-color: #89ADA3;
+        color: white;
+        border-color: #89ADA3;
+        cursor: pointer;
+    }
 }

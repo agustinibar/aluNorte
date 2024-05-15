@@ -8,6 +8,7 @@ import obra from '../../assets/obraIndustrial.mp4';
 import carrousel1 from '../../assets/carrousel1.jpg';
 import Portfolio from "../../components/Portfolio/Portfolio";
 import BottomBanner from "../../components/BottomBanner/BottomBanner";
+import Footer from "../../components/Footer/Footer";
 
 const products = [
   {
@@ -43,6 +44,7 @@ const Home = () => {
     <Products products={products}/>
     <Portfolio />
     <BottomBanner/>
+    <Footer/>
     </>
   )
 }
