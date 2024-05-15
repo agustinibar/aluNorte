@@ -6,7 +6,7 @@ import renovacion from '../../assets/renovaciones.jpg';
 const Portfolio = () => {
   return (
     <>
-    <h3 className={styles.tittle}> Nuestras obras </h3>
+    <h3 className={styles.tittle}> Nuestros productos: </h3>
     <div className={styles.master}>
       <div className={styles.container}>
           {/* <video className={styles.video} autoPlay loop muted>
