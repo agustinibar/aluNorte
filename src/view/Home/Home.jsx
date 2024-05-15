@@ -14,7 +14,7 @@ const products = [
   {
     id : 1,
     video:video,
-    tittle: "Proyectos Individuales",
+    tittle: "Proyectos 'Casa Propia'",
     text:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta provident vel nisi enim quo dolorum. Eveniet, ducimus recusandae quaerat animi harum ex, quos esse repudiandae nisi officia quam non laudantium!"
   },
   {
