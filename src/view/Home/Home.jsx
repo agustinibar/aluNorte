@@ -9,6 +9,7 @@ import carrousel1 from '../../assets/carrousel1.jpg';
 import Portfolio from "../../components/Portfolio/Portfolio";
 import BottomBanner from "../../components/BottomBanner/BottomBanner";
 import Footer from "../../components/Footer/Footer";
+import styles from './home.module.css';
 
 const products = [
   {
@@ -37,7 +38,7 @@ const Home = () => {
   const images = [ carrousel1 ];
 
   return (
-    <>
+    <div className={styles.container}>
     <Navbar/>
     <Carrousel images={images}/>
     <About/>
@@ -45,7 +46,7 @@ const Home = () => {
     <Portfolio />
     <BottomBanner/>
     <Footer/>
-    </>
+    </div>
   )
 }
 
